@@ -1,0 +1,21 @@
+*{
+    margin:0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h4{
+    text-align: left;
+}
+.content{    
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.box{
+    width: 45vw;
+}
