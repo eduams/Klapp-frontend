@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #00adb5;
+    width: 50px;
+    height:100vh;
+    margin-top: 0px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    line-height: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li>*{
+    font-size: 88em;
+    color: rgb(254, 254, 254);
+}
