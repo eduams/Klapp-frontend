@@ -47,8 +47,7 @@ body {
     font-size: 18px;
     border: 3px solid black;
     border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em;
-  
+    text-decoration: none;
   }
 
   .Entrar:hover{
@@ -139,7 +138,6 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
- right: -25%;
  border-radius: 5px;
  background: #1EBEC8;
  font-family: "Montserrat", sans-serif;
@@ -438,12 +436,6 @@ body {
   }
 
 
-ul {
-    margin-top: 2%;
-    border: 2px solid;
-    margin: 5%;
-  }
-
 
   .mike{
     width: 470px;
@@ -460,14 +452,13 @@ ul {
 
 
   .article {
-    margin-left: 35%;
     background-color: #30344c;
     padding: 1em;
     z-index: 5;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    width: 600px;
-    height: 200px;
+    width: 60%;
+    height: 50%;
     transition: 200ms ease-in-out;
     font-size: large;
     margin-bottom: 4%;
@@ -553,7 +544,6 @@ ul {
     transform: skewX(-15deg);
     border: none;
 
-    margin-left: 45%;
     margin-bottom: 2%;
   }
   
