@@ -7,6 +7,12 @@ import { Star  } from 'react-feather';
 
 var open = true;
 
+function selectText() {
+  const input = document.getElementsByClassName("bar-text");
+  input.focus();
+  input.select();
+}
+
 function openbar(){
   if(open==false){
       let sidebar = document.getElementById("sidebar");
@@ -35,9 +41,9 @@ function openbar(){
 
 const Sidebar = () => (
   <>  
-    <nav id="sidebar">
+    <aside id="sidebar">
       <ul>
-        <li onClick={openbar}><Menu size={40}/>
+        <li onClick={() => { openbar(); selectText();}}><Menu size={40}/>
         <h5 class="bar-text">Menu</h5>
         </li>
         <li><Star size={40} />
@@ -52,7 +58,7 @@ const Sidebar = () => (
         <h5 class="bar-text">Configurações</h5>
         </li>
       </ul>
-    </nav>
+    </aside>
   </>
 );
 
